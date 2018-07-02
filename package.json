@@ -1,0 +1,15 @@
+{
+  "name": "@bodhiveggie/countries",
+  "version": "0.0.1",
+  "description": "Countries for locales, names, dial codes",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BodhiHu/WebUtils.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "huhuaishun@icloud.com",
+  "license": "MIT"
+}
