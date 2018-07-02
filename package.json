@@ -3,13 +3,18 @@
   "version": "0.0.1",
   "description": "Countries for locales, names, dial codes",
   "main": "index.js",
+  "private": false,
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/BodhiHu/WebUtils.git"
+    "url": "git+ssh://git@github.com/bodhiveggie/countries.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "huhuaishun@icloud.com",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bodhiveggie/countries/issues"
+  },
+  "homepage": "https://github.com/bodhiveggie/countries#readme"
 }
