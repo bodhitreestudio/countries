@@ -48,6 +48,14 @@ getLocale('us');
 // => 'en-US'
 ```
 
+#### Get All ISO2 country codes
+```js
+import { getAllIso2 } from '@bodhiveggie/countries';
+
+getAllIso2();
+// => ['US', 'CN', 'JP' ... ]
+```
+
 ## License
 
 [MIT](http://vjpr.mit-license.org)
