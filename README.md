@@ -56,6 +56,11 @@ getAllIso2();
 // => ['US', 'CN', 'JP' ... ]
 ```
 
+### Get All Flags Images
+```
+import { getFlagImages } from '@bodhiveggie/countries';
+```
+
 ## License
 
 [MIT](http://vjpr.mit-license.org)
