@@ -1,6 +1,6 @@
 {
   "name": "@bodhiveggie/countries",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Countries for locales, names, dial codes",
   "main": "index.js",
   "private": false,
