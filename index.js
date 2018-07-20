@@ -1,6 +1,6 @@
+const locales = require('./resources/locales.json');
 
 const localesMap = (function () {
-  const locales = require('./resources/locales.json');
   let map = {};
   /** Copied from: validor/lib/isMobilePhone */
   locales.forEach((l) => {
@@ -23,11 +23,14 @@ const iso2List = (function () {
 })();
 
 module.exports = {
-  getLocale(iso2) {
-    return localesMap[iso2.toUpperCase()] || 'en-US';
+  getAllLocales() {
+    return locales;
   },
   getAllIso2 () {
     return iso2List;
+  },
+  getLocale(iso2) {
+    return localesMap[iso2.toUpperCase()] || 'en-US';
   },
   getFlagImages () {
     return {

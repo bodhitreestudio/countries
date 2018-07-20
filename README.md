@@ -48,6 +48,11 @@ getLocale('us');
 // => 'en-US'
 ```
 
+#### Get All locales
+```js
+import { getAllLocales } from '@bodhiveggie/countries';
+```
+
 #### Get All ISO2 country codes
 ```js
 import { getAllIso2 } from '@bodhiveggie/countries';
