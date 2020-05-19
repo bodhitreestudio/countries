@@ -1,12 +1,12 @@
 {
-  "name": "@bodhiveggie/countries",
+  "name": "@bodhitree/countries",
   "version": "0.0.5",
   "description": "Countries for locales, names, dial codes",
   "main": "index.js",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/bodhiveggie/countries.git"
+    "url": "git+ssh://git@github.com/bodhitreestudio/countries.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,7 @@
   "author": "huhuaishun@icloud.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bodhiveggie/countries/issues"
+    "url": "https://github.com/bodhitreestudio/countries/issues"
   },
-  "homepage": "https://github.com/bodhiveggie/countries#readme"
+  "homepage": "https://github.com/bodhitreestudio/countries#readme"
 }

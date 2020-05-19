@@ -1,21 +1,14 @@
-# @bodhiveggie/countries
+# @bodhitree/countries
 
 > Provides countries' locales, names, dial codes
 
-[![NPM Version][npm-image]][npm-url]
-
-## Install
-
-```bash
-npm i -S @bodhiveggie/countries
-```
 
 ## Usage
 
 #### Get countries info
 
 ```js
-import countries from '@bodhiveggie/countries/resources/countries.json';
+import countries from '@bodhitree/countries/resources/countries.json';
 // returns
 
 /**
@@ -34,7 +27,7 @@ import countries from '@bodhiveggie/countries/resources/countries.json';
 
 #### Get country's flag image
 ```js
-const flag = require('@bodhiveggie/countries/resources/flags/us.png');
+const flag = require('@bodhitree/countries/resources/flags/us.png');
 ```
 
 #### Get country's locale from iso2
@@ -42,7 +35,7 @@ const flag = require('@bodhiveggie/countries/resources/flags/us.png');
 > Will default to 'en-US' if no locale was found for specified ```iso2```
 
 ```js
-import { getLocale } from '@bodhiveggie/countries';
+import { getLocale } from '@bodhitree/countries';
 
 getLocale('us');
 // => 'en-US'
@@ -50,12 +43,12 @@ getLocale('us');
 
 #### Get All locales
 ```js
-import { getAllLocales } from '@bodhiveggie/countries';
+import { getAllLocales } from '@bodhitree/countries';
 ```
 
 #### Get All ISO2 country codes
 ```js
-import { getAllIso2 } from '@bodhiveggie/countries';
+import { getAllIso2 } from '@bodhitree/countries';
 
 getAllIso2();
 // => ['US', 'CN', 'JP' ... ]
@@ -63,13 +56,6 @@ getAllIso2();
 
 ### Get All Flags Images
 ```
-import { getFlagImages } from '@bodhiveggie/countries';
+import { getFlagImages } from '@bodhitree/countries';
 ```
-
-## License
-
-[MIT](http://vjpr.mit-license.org)
-
-[npm-image]: https://img.shields.io/npm/v/@bodhiveggie/countries.svg
-[npm-url]: https://npmjs.org/package/@bodhiveggie/countries
 
